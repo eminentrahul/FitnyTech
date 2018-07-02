@@ -1,0 +1,6 @@
+framework module Pods_FitnyTech {
+  umbrella header "Pods-FitnyTech-umbrella.h"
+
+  export *
+  module * { export * }
+}

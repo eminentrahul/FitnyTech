@@ -7,21 +7,69 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0F19CA5F20E938AE0006B642 /* SidebarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F19CA5E20E938AE0006B642 /* SidebarViewController.swift */; };
+		0F19CA6120E958970006B642 /* SidebarTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F19CA6020E958970006B642 /* SidebarTableViewCell.swift */; };
+		0F19CA6320E960CF0006B642 /* UserProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F19CA6220E960CF0006B642 /* UserProfileViewController.swift */; };
+		0F19CA6520EA35710006B642 /* FAQViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F19CA6420EA35710006B642 /* FAQViewController.swift */; };
+		0F2C8A9720E8BDA20042BD93 /* WorkoutsData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F2C8A9620E8BDA20042BD93 /* WorkoutsData.swift */; };
+		0F593BF720E722E000608CC7 /* Authentication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F593BF620E722E000608CC7 /* Authentication.swift */; };
+		0F593BFC20E72DDA00608CC7 /* ProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F593BFA20E72DD900608CC7 /* ProgressHUD.m */; };
+		0F593BFD20E72DDA00608CC7 /* ProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 0F593BFB20E72DDA00608CC7 /* ProgressHUD.bundle */; };
+		0F593C0120E7412B00608CC7 /* ExerciseTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F593C0020E7412B00608CC7 /* ExerciseTableViewCell.swift */; };
+		0F593C0720E7521B00608CC7 /* WorkoutTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F593C0620E7521B00608CC7 /* WorkoutTableViewCell.swift */; };
+		0F78113F20E786F30050E9C0 /* CalendarCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F78113E20E786F30050E9C0 /* CalendarCell.swift */; };
 		0FA2215920E4F96800F90847 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FA2215820E4F96800F90847 /* AppDelegate.swift */; };
-		0FA2215B20E4F96800F90847 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FA2215A20E4F96800F90847 /* ViewController.swift */; };
-		0FA2215E20E4F96800F90847 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0FA2215C20E4F96800F90847 /* Main.storyboard */; };
 		0FA2216020E4F96A00F90847 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0FA2215F20E4F96A00F90847 /* Assets.xcassets */; };
 		0FA2216320E4F96A00F90847 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0FA2216120E4F96A00F90847 /* LaunchScreen.storyboard */; };
+		0FA2216B20E4FDC200F90847 /* Start.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0FA2216A20E4FDC200F90847 /* Start.storyboard */; };
+		0FA2216D20E5000600F90847 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FA2216C20E5000600F90847 /* SignInViewController.swift */; };
+		0FA2216F20E5034200F90847 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FA2216E20E5034200F90847 /* SignUpViewController.swift */; };
+		0FA2217120E50EC900F90847 /* ExerciseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FA2217020E50EC900F90847 /* ExerciseViewController.swift */; };
+		0FA2217320E50EED00F90847 /* WorkoutsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FA2217220E50EED00F90847 /* WorkoutsViewController.swift */; };
+		0FA2217520E50F0E00F90847 /* LogsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FA2217420E50F0E00F90847 /* LogsViewController.swift */; };
+		0FA2217720E5122C00F90847 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0FA2217620E5122B00F90847 /* Main.storyboard */; };
+		0FA2217920E5152E00F90847 /* Exercise.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0FA2217820E5152E00F90847 /* Exercise.storyboard */; };
+		0FA2217B20E5166D00F90847 /* Workouts.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0FA2217A20E5166D00F90847 /* Workouts.storyboard */; };
+		0FA2217D20E5171B00F90847 /* Logs.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0FA2217C20E5171B00F90847 /* Logs.storyboard */; };
+		0FA2218120E525D600F90847 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0FA2218020E525D600F90847 /* GoogleService-Info.plist */; };
+		0FF4875720E81408009F8506 /* ExerciseData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FF4875620E81408009F8506 /* ExerciseData.swift */; };
+		A415199B57141DD9CF211918 /* Pods_FitnyTech.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 955CD92FCC6832481F99B0D8 /* Pods_FitnyTech.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0F19CA5E20E938AE0006B642 /* SidebarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SidebarViewController.swift; sourceTree = "<group>"; };
+		0F19CA6020E958970006B642 /* SidebarTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SidebarTableViewCell.swift; sourceTree = "<group>"; };
+		0F19CA6220E960CF0006B642 /* UserProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileViewController.swift; sourceTree = "<group>"; };
+		0F19CA6420EA35710006B642 /* FAQViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FAQViewController.swift; sourceTree = "<group>"; };
+		0F2C8A9620E8BDA20042BD93 /* WorkoutsData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutsData.swift; sourceTree = "<group>"; };
+		0F593BF620E722E000608CC7 /* Authentication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Authentication.swift; sourceTree = "<group>"; };
+		0F593BF820E72DD600608CC7 /* FitnyTech-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FitnyTech-Bridging-Header.h"; sourceTree = "<group>"; };
+		0F593BF920E72DD900608CC7 /* ProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProgressHUD.h; sourceTree = "<group>"; };
+		0F593BFA20E72DD900608CC7 /* ProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProgressHUD.m; sourceTree = "<group>"; };
+		0F593BFB20E72DDA00608CC7 /* ProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ProgressHUD.bundle; sourceTree = "<group>"; };
+		0F593C0020E7412B00608CC7 /* ExerciseTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseTableViewCell.swift; sourceTree = "<group>"; };
+		0F593C0620E7521B00608CC7 /* WorkoutTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutTableViewCell.swift; sourceTree = "<group>"; };
+		0F78113E20E786F30050E9C0 /* CalendarCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarCell.swift; sourceTree = "<group>"; };
 		0FA2215520E4F96800F90847 /* FitnyTech.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FitnyTech.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0FA2215820E4F96800F90847 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0FA2215A20E4F96800F90847 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		0FA2215D20E4F96800F90847 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0FA2215F20E4F96A00F90847 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0FA2216220E4F96A00F90847 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0FA2216420E4F96A00F90847 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0FA2216A20E4FDC200F90847 /* Start.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Start.storyboard; sourceTree = "<group>"; };
+		0FA2216C20E5000600F90847 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		0FA2216E20E5034200F90847 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		0FA2217020E50EC900F90847 /* ExerciseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseViewController.swift; sourceTree = "<group>"; };
+		0FA2217220E50EED00F90847 /* WorkoutsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutsViewController.swift; sourceTree = "<group>"; };
+		0FA2217420E50F0E00F90847 /* LogsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogsViewController.swift; sourceTree = "<group>"; };
+		0FA2217620E5122B00F90847 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		0FA2217820E5152E00F90847 /* Exercise.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Exercise.storyboard; sourceTree = "<group>"; };
+		0FA2217A20E5166D00F90847 /* Workouts.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Workouts.storyboard; sourceTree = "<group>"; };
+		0FA2217C20E5171B00F90847 /* Logs.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Logs.storyboard; sourceTree = "<group>"; };
+		0FA2218020E525D600F90847 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		0FF4875620E81408009F8506 /* ExerciseData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseData.swift; sourceTree = "<group>"; };
+		5201701B692FAA734ADA985E /* Pods-FitnyTech.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FitnyTech.release.xcconfig"; path = "Pods/Target Support Files/Pods-FitnyTech/Pods-FitnyTech.release.xcconfig"; sourceTree = "<group>"; };
+		794BA2B364EFA914CCC94C94 /* Pods-FitnyTech.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FitnyTech.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FitnyTech/Pods-FitnyTech.debug.xcconfig"; sourceTree = "<group>"; };
+		955CD92FCC6832481F99B0D8 /* Pods_FitnyTech.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FitnyTech.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +77,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A415199B57141DD9CF211918 /* Pods_FitnyTech.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +89,8 @@
 			children = (
 				0FA2215720E4F96800F90847 /* FitnyTech */,
 				0FA2215620E4F96800F90847 /* Products */,
+				550B9D24FE53FB7BCCE5A0C8 /* Pods */,
+				6498A2860CFF06F4220237F1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,13 +106,77 @@
 			isa = PBXGroup;
 			children = (
 				0FA2215820E4F96800F90847 /* AppDelegate.swift */,
-				0FA2215A20E4F96800F90847 /* ViewController.swift */,
-				0FA2215C20E4F96800F90847 /* Main.storyboard */,
+				0F593BF620E722E000608CC7 /* Authentication.swift */,
+				0FF4875520E813E7009F8506 /* Modal */,
+				0FA2217E20E5246400F90847 /* View */,
+				0FA2217F20E5247600F90847 /* Controller */,
 				0FA2215F20E4F96A00F90847 /* Assets.xcassets */,
-				0FA2216120E4F96A00F90847 /* LaunchScreen.storyboard */,
 				0FA2216420E4F96A00F90847 /* Info.plist */,
+				0FA2218020E525D600F90847 /* GoogleService-Info.plist */,
+				0F593BFB20E72DDA00608CC7 /* ProgressHUD.bundle */,
+				0F593BF920E72DD900608CC7 /* ProgressHUD.h */,
+				0F593BFA20E72DD900608CC7 /* ProgressHUD.m */,
+				0F593BF820E72DD600608CC7 /* FitnyTech-Bridging-Header.h */,
 			);
 			path = FitnyTech;
+			sourceTree = "<group>";
+		};
+		0FA2217E20E5246400F90847 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0FA2216120E4F96A00F90847 /* LaunchScreen.storyboard */,
+				0FA2216A20E4FDC200F90847 /* Start.storyboard */,
+				0FA2217620E5122B00F90847 /* Main.storyboard */,
+				0FA2217C20E5171B00F90847 /* Logs.storyboard */,
+				0FA2217A20E5166D00F90847 /* Workouts.storyboard */,
+				0FA2217820E5152E00F90847 /* Exercise.storyboard */,
+				0F78113E20E786F30050E9C0 /* CalendarCell.swift */,
+				0F593C0620E7521B00608CC7 /* WorkoutTableViewCell.swift */,
+				0F593C0020E7412B00608CC7 /* ExerciseTableViewCell.swift */,
+				0F19CA6020E958970006B642 /* SidebarTableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0FA2217F20E5247600F90847 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0FA2216C20E5000600F90847 /* SignInViewController.swift */,
+				0F19CA6220E960CF0006B642 /* UserProfileViewController.swift */,
+				0F19CA5E20E938AE0006B642 /* SidebarViewController.swift */,
+				0FA2216E20E5034200F90847 /* SignUpViewController.swift */,
+				0FA2217020E50EC900F90847 /* ExerciseViewController.swift */,
+				0FA2217220E50EED00F90847 /* WorkoutsViewController.swift */,
+				0FA2217420E50F0E00F90847 /* LogsViewController.swift */,
+				0F19CA6420EA35710006B642 /* FAQViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		0FF4875520E813E7009F8506 /* Modal */ = {
+			isa = PBXGroup;
+			children = (
+				0FF4875620E81408009F8506 /* ExerciseData.swift */,
+				0F2C8A9620E8BDA20042BD93 /* WorkoutsData.swift */,
+			);
+			path = Modal;
+			sourceTree = "<group>";
+		};
+		550B9D24FE53FB7BCCE5A0C8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				794BA2B364EFA914CCC94C94 /* Pods-FitnyTech.debug.xcconfig */,
+				5201701B692FAA734ADA985E /* Pods-FitnyTech.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		6498A2860CFF06F4220237F1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				955CD92FCC6832481F99B0D8 /* Pods_FitnyTech.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +186,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0FA2216720E4F96A00F90847 /* Build configuration list for PBXNativeTarget "FitnyTech" */;
 			buildPhases = (
+				1B8748E58B995DDB1C1CC183 /* [CP] Check Pods Manifest.lock */,
 				0FA2215120E4F96800F90847 /* Sources */,
 				0FA2215220E4F96800F90847 /* Frameworks */,
 				0FA2215320E4F96800F90847 /* Resources */,
+				22CDECC0FCFCDB854B278446 /* [CP] Embed Pods Frameworks */,
+				D2043FCBA9D41914D3D992EB /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -96,6 +214,7 @@
 				TargetAttributes = {
 					0FA2215420E4F96800F90847 = {
 						CreatedOnToolsVersion = 9.3;
+						LastSwiftMigration = 0930;
 					};
 				};
 			};
@@ -123,34 +242,118 @@
 			buildActionMask = 2147483647;
 			files = (
 				0FA2216320E4F96A00F90847 /* LaunchScreen.storyboard in Resources */,
+				0FA2218120E525D600F90847 /* GoogleService-Info.plist in Resources */,
+				0FA2217920E5152E00F90847 /* Exercise.storyboard in Resources */,
+				0FA2217B20E5166D00F90847 /* Workouts.storyboard in Resources */,
 				0FA2216020E4F96A00F90847 /* Assets.xcassets in Resources */,
-				0FA2215E20E4F96800F90847 /* Main.storyboard in Resources */,
+				0F593BFD20E72DDA00608CC7 /* ProgressHUD.bundle in Resources */,
+				0FA2216B20E4FDC200F90847 /* Start.storyboard in Resources */,
+				0FA2217D20E5171B00F90847 /* Logs.storyboard in Resources */,
+				0FA2217720E5122C00F90847 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1B8748E58B995DDB1C1CC183 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FitnyTech-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		22CDECC0FCFCDB854B278446 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-FitnyTech/Pods-FitnyTech-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMOAuth2/GTMOAuth2.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/JTAppleCalendar/JTAppleCalendar.framework",
+				"${BUILT_PRODUCTS_DIR}/MMDrawerController/MMDrawerController.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMOAuth2.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JTAppleCalendar.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MMDrawerController.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FitnyTech/Pods-FitnyTech-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D2043FCBA9D41914D3D992EB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-FitnyTech/Pods-FitnyTech-resources.sh",
+				"${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleSignIn.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FitnyTech/Pods-FitnyTech-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		0FA2215120E4F96800F90847 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0FA2215B20E4F96800F90847 /* ViewController.swift in Sources */,
+				0F19CA6120E958970006B642 /* SidebarTableViewCell.swift in Sources */,
+				0F593BF720E722E000608CC7 /* Authentication.swift in Sources */,
+				0FA2216F20E5034200F90847 /* SignUpViewController.swift in Sources */,
+				0FA2217320E50EED00F90847 /* WorkoutsViewController.swift in Sources */,
+				0F593C0720E7521B00608CC7 /* WorkoutTableViewCell.swift in Sources */,
+				0FA2216D20E5000600F90847 /* SignInViewController.swift in Sources */,
+				0F2C8A9720E8BDA20042BD93 /* WorkoutsData.swift in Sources */,
+				0F19CA6520EA35710006B642 /* FAQViewController.swift in Sources */,
+				0FA2217120E50EC900F90847 /* ExerciseViewController.swift in Sources */,
+				0F78113F20E786F30050E9C0 /* CalendarCell.swift in Sources */,
+				0F19CA6320E960CF0006B642 /* UserProfileViewController.swift in Sources */,
+				0FF4875720E81408009F8506 /* ExerciseData.swift in Sources */,
 				0FA2215920E4F96800F90847 /* AppDelegate.swift in Sources */,
+				0F593C0120E7412B00608CC7 /* ExerciseTableViewCell.swift in Sources */,
+				0F593BFC20E72DDA00608CC7 /* ProgressHUD.m in Sources */,
+				0FA2217520E50F0E00F90847 /* LogsViewController.swift in Sources */,
+				0F19CA5F20E938AE0006B642 /* SidebarViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		0FA2215C20E4F96800F90847 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0FA2215D20E4F96800F90847 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		0FA2216120E4F96A00F90847 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -278,8 +481,10 @@
 		};
 		0FA2216820E4F96A00F90847 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 794BA2B364EFA914CCC94C94 /* Pods-FitnyTech.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = M9GS99CBAG;
 				INFOPLIST_FILE = FitnyTech/Info.plist;
@@ -289,6 +494,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = rrp.FitnyTech;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "FitnyTech/FitnyTech-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -296,8 +503,10 @@
 		};
 		0FA2216920E4F96A00F90847 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5201701B692FAA734ADA985E /* Pods-FitnyTech.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = M9GS99CBAG;
 				INFOPLIST_FILE = FitnyTech/Info.plist;
@@ -307,6 +516,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = rrp.FitnyTech;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "FitnyTech/FitnyTech-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

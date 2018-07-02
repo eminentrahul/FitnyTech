@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Exercise-->
+        <scene sceneID="aai-lU-49b">
+            <objects>
+                <viewController storyboardIdentifier="ExerciseViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="8Q0-6S-kWJ" customClass="ExerciseViewController" customModule="FitnyTech" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="MR0-cY-1Da">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="L0p-hh-dvw">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="cellForExercise" rowHeight="100" id="CPT-3w-vIQ" customClass="ExerciseTableViewCell" customModule="FitnyTech" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="28" width="375" height="100"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="CPT-3w-vIQ" id="Qxa-Ao-nR9">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="99.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="CXc-Fo-Jnd">
+                                                    <rect key="frame" x="8" y="0.0" width="100" height="100"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="100" id="4AF-kB-RNW"/>
+                                                        <constraint firstAttribute="height" constant="100" id="vSn-D9-mH1"/>
+                                                    </constraints>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Rahul Ravi Prakash" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="arR-pP-VHL">
+                                                    <rect key="frame" x="127" y="33" width="145" height="33"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstAttribute="bottomMargin" secondItem="arR-pP-VHL" secondAttribute="bottom" constant="23" id="17Q-wa-UOl"/>
+                                                <constraint firstItem="CXc-Fo-Jnd" firstAttribute="top" secondItem="Qxa-Ao-nR9" secondAttribute="top" id="N7X-zd-TZ0"/>
+                                                <constraint firstItem="CXc-Fo-Jnd" firstAttribute="leading" secondItem="Qxa-Ao-nR9" secondAttribute="leading" constant="8" id="RPF-he-LuX"/>
+                                                <constraint firstItem="arR-pP-VHL" firstAttribute="top" secondItem="Qxa-Ao-nR9" secondAttribute="topMargin" constant="22" id="SvU-f6-CLq"/>
+                                                <constraint firstAttribute="bottom" secondItem="CXc-Fo-Jnd" secondAttribute="bottom" constant="-0.5" id="cEt-xK-r8K"/>
+                                                <constraint firstItem="arR-pP-VHL" firstAttribute="leading" secondItem="CXc-Fo-Jnd" secondAttribute="trailing" constant="19" id="oZz-jU-Ibe"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="exerciseImageView" destination="CXc-Fo-Jnd" id="zQt-u4-fOJ"/>
+                                            <outlet property="exerciseNameLabel" destination="arR-pP-VHL" id="yTu-oE-hAb"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="L0p-hh-dvw" firstAttribute="trailing" secondItem="s32-Cu-CQg" secondAttribute="trailing" id="4u2-gu-Vtr"/>
+                            <constraint firstItem="L0p-hh-dvw" firstAttribute="bottom" secondItem="s32-Cu-CQg" secondAttribute="bottom" id="ePW-SB-22B"/>
+                            <constraint firstItem="L0p-hh-dvw" firstAttribute="leading" secondItem="s32-Cu-CQg" secondAttribute="leading" id="ndY-j6-0ie"/>
+                            <constraint firstItem="L0p-hh-dvw" firstAttribute="top" secondItem="MR0-cY-1Da" secondAttribute="top" id="uzM-dY-yTg"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="s32-Cu-CQg"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Exercise" id="LBp-LL-ncT">
+                        <barButtonItem key="leftBarButtonItem" image="menu" id="Acs-9z-HBu">
+                            <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            <connections>
+                                <action selector="sideBarMenuButton:" destination="8Q0-6S-kWJ" id="fc6-eJ-Ejz"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="exerciseTableView" destination="L0p-hh-dvw" id="GbQ-ST-jAA"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Oph-Mr-zhc" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2485.5999999999999" y="-27.436281859070466"/>
+        </scene>
+        <!--Exercise-->
+        <scene sceneID="gIM-u8-K0z">
+            <objects>
+                <navigationController storyboardIdentifier="ExerciseNav" automaticallyAdjustsScrollViewInsets="NO" useStoryboardIdentifierAsRestorationIdentifier="YES" id="iwv-is-wCS" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Exercise" image="heart" selectedImage="heart" id="tiy-ZH-pTr"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="o2k-UN-7RY">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="8Q0-6S-kWJ" kind="relationship" relationship="rootViewController" id="nFP-dj-Lhf"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ock-Rj-FkR" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1662" y="-27"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="heart" width="30" height="30"/>
+        <image name="menu" width="30" height="30"/>
+    </resources>
+</document>
