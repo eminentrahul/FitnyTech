@@ -13,4 +13,5 @@ pod 'JTAppleCalendar', '~> 7.0'
 pod 'FirebaseUI/Storage'
 pod 'GoogleSignIn'
 pod 'MMDrawerController', '~> 0.5.7'
+pod 'FAQView', '~> 0.5.0'
 end

@@ -124,16 +124,8 @@
 		0FA2217E20E5246400F90847 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				0FA2216120E4F96A00F90847 /* LaunchScreen.storyboard */,
-				0FA2216A20E4FDC200F90847 /* Start.storyboard */,
-				0FA2217620E5122B00F90847 /* Main.storyboard */,
-				0FA2217C20E5171B00F90847 /* Logs.storyboard */,
-				0FA2217A20E5166D00F90847 /* Workouts.storyboard */,
-				0FA2217820E5152E00F90847 /* Exercise.storyboard */,
-				0F78113E20E786F30050E9C0 /* CalendarCell.swift */,
-				0F593C0620E7521B00608CC7 /* WorkoutTableViewCell.swift */,
-				0F593C0020E7412B00608CC7 /* ExerciseTableViewCell.swift */,
-				0F19CA6020E958970006B642 /* SidebarTableViewCell.swift */,
+				0FBF5A9320EC71B50048A6C2 /* Storyboards */,
+				0FBF5A9420EC71DB0048A6C2 /* Cells */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -142,15 +134,39 @@
 			isa = PBXGroup;
 			children = (
 				0FA2216C20E5000600F90847 /* SignInViewController.swift */,
-				0F19CA6220E960CF0006B642 /* UserProfileViewController.swift */,
-				0F19CA5E20E938AE0006B642 /* SidebarViewController.swift */,
 				0FA2216E20E5034200F90847 /* SignUpViewController.swift */,
 				0FA2217020E50EC900F90847 /* ExerciseViewController.swift */,
 				0FA2217220E50EED00F90847 /* WorkoutsViewController.swift */,
 				0FA2217420E50F0E00F90847 /* LogsViewController.swift */,
+				0F19CA5E20E938AE0006B642 /* SidebarViewController.swift */,
+				0F19CA6220E960CF0006B642 /* UserProfileViewController.swift */,
 				0F19CA6420EA35710006B642 /* FAQViewController.swift */,
 			);
 			path = Controller;
+			sourceTree = "<group>";
+		};
+		0FBF5A9320EC71B50048A6C2 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				0FA2216120E4F96A00F90847 /* LaunchScreen.storyboard */,
+				0FA2216A20E4FDC200F90847 /* Start.storyboard */,
+				0FA2217620E5122B00F90847 /* Main.storyboard */,
+				0FA2217C20E5171B00F90847 /* Logs.storyboard */,
+				0FA2217A20E5166D00F90847 /* Workouts.storyboard */,
+				0FA2217820E5152E00F90847 /* Exercise.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		0FBF5A9420EC71DB0048A6C2 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				0F78113E20E786F30050E9C0 /* CalendarCell.swift */,
+				0F593C0620E7521B00608CC7 /* WorkoutTableViewCell.swift */,
+				0F593C0020E7412B00608CC7 /* ExerciseTableViewCell.swift */,
+				0F19CA6020E958970006B642 /* SidebarTableViewCell.swift */,
+			);
+			path = Cells;
 			sourceTree = "<group>";
 		};
 		0FF4875520E813E7009F8506 /* Modal */ = {
@@ -281,6 +297,7 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-FitnyTech/Pods-FitnyTech-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/FAQView/FAQView.framework",
 				"${BUILT_PRODUCTS_DIR}/GTMOAuth2/GTMOAuth2.framework",
 				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
 				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
@@ -292,6 +309,7 @@
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FAQView.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMOAuth2.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
